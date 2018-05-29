@@ -1,0 +1,38 @@
+{
+    "0": {
+        "target": "LOG", 
+        "srcPort": "", 
+        "prot": "all", 
+        "bytes": "582K", 
+        "srcAddr": "0.0.0.0/0", 
+        "state": "", 
+        "destAddr": "0.0.0.0/0", 
+        "pkts": "1955", 
+        "type": "FORWARD", 
+        "destPort": ""
+    }, 
+    "1": {
+        "target": "ACCEPT", 
+        "srcPort": "", 
+        "prot": "all", 
+        "bytes": "376K", 
+        "srcAddr": "0.0.0.0/0", 
+        "state": "RELATED,ESTABLISHED", 
+        "destAddr": "0.0.0.0/0", 
+        "pkts": "1088", 
+        "type": "FORWARD", 
+        "destPort": ""
+    }, 
+    "2": {
+        "target": "ACCEPT", 
+        "srcPort": "", 
+        "prot": "all", 
+        "bytes": "206K", 
+        "srcAddr": "0.0.0.0/0", 
+        "state": "", 
+        "destAddr": "0.0.0.0/0", 
+        "pkts": "867", 
+        "type": "FORWARD", 
+        "destPort": ""
+    }
+}
